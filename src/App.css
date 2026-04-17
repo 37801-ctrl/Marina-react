@@ -1,0 +1,70 @@
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#esquerda{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    background: url(./assets/foto.webp);
+    background-position-x: 40%;
+    background-position-y: 10%;
+    background-size: cover;
+}
+#direita{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    width: 100%;
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    color: #006bf7;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+label{
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+input{
+    padding: 10px;
+    height: 6vh;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 45%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+button{
+  background: #0e76ff;
+  margin-top: 10%;
+  color: white;
+  padding: 15px;
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.esqueceu-senha{
+    width: 60%;
+    margin-top: 5%;
+    margin-left: 20%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
